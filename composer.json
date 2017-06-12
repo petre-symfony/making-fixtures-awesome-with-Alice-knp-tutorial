@@ -23,7 +23,8 @@
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
         "hautelook/alice-bundle": "^1.4",
-        "doctrine/data-fixtures": "^1.2"
+        "doctrine/data-fixtures": "^1.2",
+        "nelmio/alice": "^2.3"
     },
     "scripts": {
         "post-root-package-install": [
