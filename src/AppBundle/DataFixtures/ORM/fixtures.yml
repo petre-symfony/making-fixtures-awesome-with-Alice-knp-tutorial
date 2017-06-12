@@ -5,3 +5,10 @@ AppBundle\Entity\Character:
     highScore: 99999
     email: yoshi@nintendo.com
     tagLine: Yoshi!
+  character{2..10}:
+    name: Mario
+    realName: Homo Nintendarus
+    highScore: 50000
+    email: mario@nintendo.com
+    tagLine: Let's a go!
+    
