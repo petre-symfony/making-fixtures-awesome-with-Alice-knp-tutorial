@@ -6,9 +6,9 @@ AppBundle\Entity\Character:
     email: yoshi@nintendo.com
     tagLine: Yoshi!
   character{2..10}:
-    name: Mario<current()>
-    realName: Homo Nintendarus
-    highScore: 50000
-    email: mario@nintendo.com
-    tagLine: Let's a go!
+    name: Super <firstName()>
+    realName: <name()>
+    highScore: <numberBetween(1, 999999)>
+    email: <email()>
+    tagLine: <sentence()>
     
