@@ -7,7 +7,10 @@ use Nelmio\Alice\Fixtures;
 
 class AppFixtures extends AbstractLoader {
   public function getFixtures() {
-    return array(__DIR__.'/fixtures.yml');
+    return array(
+      __DIR__.'/universe.yml',    
+      __DIR__.'/fixtures.yml'
+    );
   }
   
   public function characterName(){
