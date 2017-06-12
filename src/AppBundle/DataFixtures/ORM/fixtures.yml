@@ -14,11 +14,5 @@ AppBundle\Entity\Character:
     tagLine: 80%? <sentence()>
     universe: @universe_*
     
-AppBundle\Entity\Universe:
-  universe_nintendo:
-    name: Nintendo
-  universe_sega:
-    name: Sega 
-  universe_arcade:
-    name: Arcade 
+
     
