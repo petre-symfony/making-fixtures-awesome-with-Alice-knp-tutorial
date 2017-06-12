@@ -12,7 +12,7 @@ AppBundle\Entity\Character:
     highScore: <numberBetween(1, 999999)>
     email: <email()>
     tagLine: 80%? <sentence()>
-    universe: @universe_sega
+    universe: @universe_*
     
 AppBundle\Entity\Universe:
   universe_nintendo:
