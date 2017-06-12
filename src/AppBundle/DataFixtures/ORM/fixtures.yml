@@ -10,5 +10,5 @@ AppBundle\Entity\Character:
     realName: <name()>
     highScore: <numberBetween(1, 999999)>
     email: <email()>
-    tagLine: <sentence()>
+    tagLine: 80%? <sentence()>
     
