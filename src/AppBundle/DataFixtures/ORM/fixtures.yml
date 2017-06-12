@@ -1,0 +1,7 @@
+AppBundle\Entity\Character:
+  character1:
+    name: Yoshi
+    realName: T. Yoshisaur Munchakoopas
+    highScore: 99999
+    email: yoshi@nintendo.com
+    tagLine: Yoshi!
