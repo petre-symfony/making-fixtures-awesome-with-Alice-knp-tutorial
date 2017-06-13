@@ -14,5 +14,6 @@ AppBundle\Entity\Character:
     tagLine: 80%? <sentence()>
     universe: @universe_*
     
+    
 
     
