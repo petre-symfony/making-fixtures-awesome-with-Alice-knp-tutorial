@@ -1,1 +1,4 @@
 services:
+  alice.processor.character:
+    class: AppBundle\DataFixtures\ORM\CharacterProcessor
+    tags: [ { name: fidry_alice_data_fixtures.processor } ]
