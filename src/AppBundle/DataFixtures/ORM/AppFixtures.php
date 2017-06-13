@@ -27,4 +27,15 @@ class AppFixtures extends AbstractLoader {
     
     return $names[array_rand($names)];
   }
+  
+  public function avatar(){
+     $names = array(
+      'kitten1.jpg',
+      'kitten2.jpg',
+      'kitten3.jpg',
+      'kitten4.jpg'
+    );
+    
+    return $names[array_rand($names)]; 
+  }
 }
